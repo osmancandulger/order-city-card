@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #ebecf3;
+  }
+  .container {
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 515px;
+    background: white;
+    border-radius: 15px;
+    font-family: "Open Sans", sans-serif;
+  
+    .mainTitle {
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      font-weight: 700;
+      font-size: 14px;
+      top: 45px;
+      width: 100%;
+      line-height: 29.96px;
+      h3:nth-child(1) {
+        display: inline;
+        opacity: 0.75;
+      }
+      .steps {
+        position: relative;
+        display: flex;
+        top: 40px;
+        width: 168px;
+        height: 35px;
+        justify-content: space-between;
+        span:nth-child(1) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 30px;
+          width: 30px;
+          border-radius: 50%;
+          background: #6a77f0;
+          color: white;
+          font-weight: 400;
+          font-size: 15px;
+        }
+        .relation {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          height: 2px;
+          width: 108px;
+          background: #ebecf3;
+          left: 30px;
+          top: 14px;
+        }
+        span:nth-child(3) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 30px;
+          width: 30px;
+          border-radius: 50%;
+          background: #f0f1fa;
+  
+          color: #171b42;
+          font-weight: 400;
+          font-size: 15px;
+        }
+        .headerText {
+          display: flex;
+          justify-content: space-between;
+          width: 235px;
+          height: 35px;
+  
+          font-size: 12px;
+          position: absolute;
+          top: 44px;
+          p:nth-child(1) {
+            position: absolute;
+            left: -14px;
+            font-weight: 400;
+          }
+          p:nth-child(2) {
+            position: absolute;
+            right: 30px;
+            font-weight: 300;
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+    .content {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+      height: 313px;
+      width: 100%;
+      top: 85px;
+      button {
+        display: flex;
+        position: absolute;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        width: 115px;
+        height: 36px;
+        color: #6a77f0;
+        background: white;
+        border: 1px solid #6a77f0;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+        font-weight: 600px;
+        bottom: 25px;
+      }
+  
+      button:hover {
+        background: rgba(224, 224, 224, 0.4);
+      }
+  
+      span,
+      span:nth-child(3) {
+        margin-left: 25px;
+      }
+      span:nth-child(3) {
+        font-weight: 400;
+        font-size: 14px;
+      }
+      .oneDay {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border: 1px solid #ebecf3;
+        width: 165px;
+        height: 225px;
+        border-radius: 10px;
+      }
+      .twoDay {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border: 1px solid #ebecf3;
+        width: 165px;
+        height: 225px;
+        border-radius: 10px;
+      }
+      .threeDay {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border: 1px solid #ebecf3;
+        width: 165px;
+        height: 225px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 14px 14px -10px rgba(106, 119, 240, 0.2);
+        -moz-box-shadow: 0px 14px 14px -10px rgba(106, 119, 240, 0.2);
+        box-shadow: 0px 14px 14px -10px rgba(106, 119, 240, 0.2);
+        .lastButton {
+          background-color: #6a77f0;
+          color: white;
+        }
+        .lastButton:hover {
+          background-color: #9b75c9;
+          border: none;
+        }
+      }
+      svg {
+        margin-top: 18px;
+        margin-left: 22px;
+      }
+    }
+  }
+  
